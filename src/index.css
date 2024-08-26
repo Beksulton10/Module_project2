@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: sans-serif;
+}
+
+::selection {
+    color: rgb(238, 85, 85);
+    background-color: rgb(230, 198, 203);
+}
+
+.main__container{
+    max-width: 1140px;
+}
+
+.signIn::before {
+    content: "";
+    background-image: url("./assets/sign-in.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px; 
+    position: absolute; 
+    right: 80px; 
+    top: 10px;
+}
+
+.register::before {
+    content: "";
+    background-image: url("./assets/register.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px; 
+    position: absolute; 
+    right: 75px; 
+    top: 45px;
+}
+
+.nav__bottom {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+.dropdowns{
+    left: 1px
+}
