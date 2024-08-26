@@ -1,4 +1,4 @@
-# Fashion cube Astrum module project
+# Fashion cube Astrum module project 2
 
 Frameworks Vite + React js and Tailwind css.
 
